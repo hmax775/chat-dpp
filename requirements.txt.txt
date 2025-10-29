@@ -3,5 +3,8 @@ llama-index
 llama-index-llms-gemini
 llama-index-embeddings-huggingface
 llama-index-vector-stores-faiss
-faiss-cpu
+
+# تم استبدال faiss-cpu بـ faiss-cpu-with-mkl لضمان التثبيت السليم على Streamlit Cloud
+
+faiss-cpu-with-mkl
 python-dotenv
